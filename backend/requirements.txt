@@ -4,3 +4,4 @@ redis
 httpx
 pydantic
 prometheus-client
+ruff

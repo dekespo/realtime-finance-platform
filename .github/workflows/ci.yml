@@ -17,6 +17,7 @@ jobs:
           python-version: "3.14"
       - run: python -m pip install --upgrade pip
       - run: pip install -r backend/requirements.txt
+      - run: ruff check backend
       - run: pip install pytest pytest-asyncio
       - run: PYTHONPATH=backend pytest backend
 
