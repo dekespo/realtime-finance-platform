@@ -1,7 +1,4 @@
 fastapi
 uvicorn[standard]
-redis
 httpx
-pydantic
-prometheus-client
 ruff

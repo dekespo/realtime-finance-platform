@@ -11,6 +11,10 @@ app = FastAPI()
 def root():
     return {"status": "ok"}
 
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
+
 @app.websocket("/ws/prices")
 async def websocket_endpoint(websocket: WebSocket):
     await websocket.accept()
