@@ -1,5 +1,11 @@
 # Real-Time Finance Streaming Platform
 
+![CI](https://github.com/dekespo/realtime-finance-platform/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/github/license/dekespo/realtime-finance-platform)
+![Python](https://img.shields.io/badge/python-3.14-blue)
+![Node](https://img.shields.io/badge/node-25.x-green)
+![Docker](https://img.shields.io/badge/dockerized-yes-blue)
+
 A containerized real-time financial data streaming platform built with:
 
 - **FastAPI (Python)** backend for WebSocket data streaming
